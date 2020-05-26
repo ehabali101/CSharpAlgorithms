@@ -1,4 +1,5 @@
-﻿using System;
+﻿using csharpCoding;
+using System;
 using System.Linq;
 
 class Test
@@ -20,7 +21,88 @@ class Test
         int[] profit = maxProfit(new int[] { 5, 11, 3, 50, 60, 90 });
         Console.WriteLine("Buy: {0}, Sell: {1}, Profit: {2}", profit[0], profit[1], profit[2]);
 
+        int[] A1 = new int[] { 1, 3, 6, 4, 1, 2 };
+        int[] A2 = new int[] { 1,2,3};
+        int[] A3 = new int[] { -3,0,1 };
+        int result1  = solution(A1);
+        int result2 = solution(A2);
+        int result3 = solution(A3);
+
+        Console.WriteLine("result is: {0}, {1}, {2}", result1, result2, result3);
+
+        FindElement();
+
+        int[] A5 = new int[] { 20,-1, 10, 5, 1, 9, -89 , 159};
+        int in1 = solution1(A5);
+        Console.WriteLine("solution1: {0}", in1);
+
+        int[] A6 = new int[] { -3, -1, 10, 3, 1, 9, -89, 159 };
+        int in2 = solution2(A6);
+        Console.WriteLine("solution2: {0}", in2);
+
+        Console.WriteLine("--------------------------------------------");
+        Console.WriteLine("--------------------------------------------");
+
+        BinaryGap binaryGap = new BinaryGap();
+        Console.WriteLine("binaryGap: {0}", binaryGap.solution(9));
+        Console.WriteLine("binaryGap: {0}", binaryGap.solution(529));
+        Console.WriteLine("binaryGap: {0}", binaryGap.solution(20));
+        Console.WriteLine("binaryGap: {0}", binaryGap.solution(15));
+        Console.WriteLine("binaryGap: {0}", binaryGap.solution(32));
+        Console.WriteLine("binaryGap: {0}", binaryGap.solution(561892)); 
+
         Console.ReadKey();
+    }
+
+    public static int solution2(int[] A)
+    {
+        //Array.Sort(A);
+        //for (int i = A.Length - 1; i >= 0; i--)
+        //{
+        //    int opp = Array.Find(A, e => e.Equals(A[i] * -1));
+        //    if (opp != 0)
+        //        return A[i];
+        //}
+
+        int result = 0;
+        for (int i = 0; i < A.Length - 1; i++)
+        {
+            int opp = Array.Find(A, e => e.Equals(A[i] * -1));
+            if (A[i] > result && opp != 0)
+                result = A[i];
+        }
+
+        return result;
+    }
+
+    public static int solution1(int[] A)
+    {
+        //Array.Sort(A);
+        //for(int i = A.Length -1; i>= 0;i--)
+        //{
+        //    if (A[i].ToString().Length == 1)
+        //        return A[i];
+        //}
+
+        int result = 0;
+        for (int i = 0; i < A.Length - 1; i++)
+        { 
+            if(A[i]> result && A[i].ToString().Length == 1)
+            {
+                result = A[i];
+            }
+        }
+        
+        return result;
+    }
+    public static void FindElement()
+    {
+
+        int[] A = new int[] { 0, 1, 2, 3 };
+        int? notFind = Array.Find(A,e => e.Equals(4));
+        int? find = Array.Find(A, e => e.Equals(3));
+
+        Console.WriteLine("notFind: {0}, find: {1}", notFind, find);
     }
 
     public static string BinaryReversal(string str)
@@ -29,7 +111,7 @@ class Test
         if (!int.TryParse(str, out number))
             return "Invalid Number";
 
-    string binaryStr = Convert.ToString(number, 2);
+        string binaryStr = Convert.ToString(number, 2);
         int length = binaryStr.Length / 8;
         int remainder = binaryStr.Length % 8;
         if (remainder != 0)
@@ -166,9 +248,23 @@ class Test
         }
 
         return maxprofit_so_far;
+    }
 
-        string s = "hello C#";
-        char c = s[1];
+
+    public static int solution(int[] A)
+    {
+        Array.Sort(A);
+        int start = A[0];
+        int end = A[A.Length - 1];
+        if (end < 0)
+            return 1;
+        for (int num = start; num < end; num++)
+        {
+            int n = Array.Find(A, elemnt => elemnt.Equals(num));
+            if (n == 0 && num > 0)
+                return num;
+        }
+        return end + 1;
     }
 
 }
