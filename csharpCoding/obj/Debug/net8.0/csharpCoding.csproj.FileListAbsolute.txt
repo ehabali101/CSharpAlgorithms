@@ -1,0 +1,15 @@
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\net8.0\csharpCoding.exe
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\net8.0\csharpCoding.deps.json
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\net8.0\csharpCoding.runtimeconfig.json
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\net8.0\csharpCoding.dll
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\net8.0\csharpCoding.pdb
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\csharpCoding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\csharpCoding.AssemblyInfoInputs.cache
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\csharpCoding.AssemblyInfo.cs
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\csharpCoding.csproj.CoreCompileInputs.cache
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\csharpCoding.sourcelink.json
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\csharpCoding.dll
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\refint\csharpCoding.dll
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\csharpCoding.pdb
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\csharpCoding.genruntimeconfig.cache
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\net8.0\ref\csharpCoding.dll

@@ -11,3 +11,17 @@ C:\Users\EHAB\Source\Repos\csharpCoding\csharpCoding\obj\Debug\netcoreapp3.1\csh
 C:\Users\EHAB\Source\Repos\csharpCoding\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.dll
 C:\Users\EHAB\Source\Repos\csharpCoding\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.pdb
 C:\Users\EHAB\Source\Repos\csharpCoding\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.genruntimeconfig.cache
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\netcoreapp3.1\csharpCoding.exe
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\netcoreapp3.1\csharpCoding.deps.json
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\netcoreapp3.1\csharpCoding.runtimeconfig.json
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\netcoreapp3.1\csharpCoding.runtimeconfig.dev.json
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\netcoreapp3.1\csharpCoding.dll
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\bin\Debug\netcoreapp3.1\csharpCoding.pdb
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.AssemblyInfoInputs.cache
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.AssemblyInfo.cs
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.csproj.CoreCompileInputs.cache
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.sourcelink.json
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.dll
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.pdb
+C:\Users\EHAB\Source\Repos\CSharpAlgorithms\csharpCoding\obj\Debug\netcoreapp3.1\csharpCoding.genruntimeconfig.cache
