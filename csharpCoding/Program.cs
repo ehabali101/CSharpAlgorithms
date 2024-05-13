@@ -120,7 +120,6 @@ class Test
         binaryStr = binaryStr.PadLeft(8*length, '0');
         char[] charArray = binaryStr.ToCharArray();
         Array.Reverse(charArray);
-        
 
         return Convert.ToInt32(new string(charArray),2).ToString();
     }
@@ -219,14 +218,14 @@ class Test
         foreach (int price in prices)
         {
             //minPrice = Math.Min(minPrice, price);
-            if (minPrice > price)
+            if (price < minPrice)
             {
                 minPrice = price;
                 buy = price;
             }
 
             //maxProfit = Math.Max(maxProfit, price - minPrice);
-            if (maxProfit < price - minPrice)
+            if (price - minPrice > maxProfit)
             {
                 maxProfit = price - minPrice;
                 sell = price;
